@@ -58,7 +58,7 @@ class ApplicationController < Sinatra::Base
       session.clear
       redirect  '/'
     else
-      redirect '/tweets'
+      redirect '/login'
     end
   end 
 
